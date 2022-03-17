@@ -1,0 +1,28 @@
+html, body{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+.menu-container{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #2D7487;
+}
+.menu-items li{
+    display: inline;
+}
+ul {
+    list-style-type:none;
+}
+li a{
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+li :hover{
+    color: #e1ad68;
+    transition: 0.5s;
+}
